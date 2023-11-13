@@ -4,4 +4,4 @@ from .models import Url
 class UrlSerializer(serializers.ModelSerializer):
     class Meta:
         model = Url
-        fields = ['full_url', 'short_url']
+        fields = ['full_url', 'title_url', 'short_url']

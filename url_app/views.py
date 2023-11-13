@@ -1,8 +1,8 @@
-from django.http import Http404
 from django.shortcuts import redirect
 from rest_framework import generics
 from .models import Url
 from .serializers import UrlSerializer
+from django.http import Http404
 
 
 class UrlListCreateView(generics.ListCreateAPIView):
